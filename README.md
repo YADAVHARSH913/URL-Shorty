@@ -81,7 +81,7 @@ Paste a long URL and shorten it ✂️
 
 Share the short link and track clicks in your dashboard
 
-
+```
 ## 📸 Screenshots
 
 1. **Register Page**
