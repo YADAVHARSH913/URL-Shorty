@@ -82,20 +82,19 @@ Paste a long URL and shorten it ✂️
 Share the short link and track clicks in your dashboard
 
 
-📸 Screenshots 
+## 📸 Screenshots
 
-1. Register Page
+1. **Register Page**
 
-![Register Page](https://github.com/user-attachments/assets/649bdd91-e01d-45e1-94c7-2a6091095790)
+![Register Page](./Screenshots/Register.png)
 
-2. Login Page
+2. **Login Page**
 
-<img width="1919" height="939" alt="image" src="https://github.com/user-attachments/assets/63a644cf-2af9-45d8-bf9a-b30804e3e37c" />
+![Login Page](./Screenshots/Login.png)
 
-3.URL Shortner
+3. **URL Shortener**
 
-<img width="1919" height="944" alt="image" src="https://github.com/user-attachments/assets/42239089-38aa-4db7-aca1-e811de40d34a" />
-
+![URL Shortener](./Screenshots/URL.png)
 
 
 
