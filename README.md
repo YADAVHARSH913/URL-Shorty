@@ -1,7 +1,7 @@
 # 🌐 URL-Shorty
 
 A modern **URL Shortener Web App** built with the **MERN stack (MongoDB, Express, React, Node.js)**.  
-It allows users to shorten long URLs, manage them via a personal dashboard, and track click statistics — all with a clean UI supporting **dark/light mode**.  
+It allows users to shorten long URLs, manage them via a personal dashboard, and track click statistics — all with a clean UI.  
 
 ---
 
@@ -11,7 +11,6 @@ It allows users to shorten long URLs, manage them via a personal dashboard, and 
 - ✂️ **Shorten URLs** instantly  
 - 📊 **Click Tracking** for each short URL  
 - 🗂 **Personal Dashboard** to manage all links  
-- 🌓 **Dark / Light Mode** toggle  
 - 🔒 **Secure Passwords** with hashing  
 
 ---
@@ -20,40 +19,12 @@ It allows users to shorten long URLs, manage them via a personal dashboard, and 
 
 **Frontend**: React, React Router, Axios, CSS / Tailwind (if used)  
 **Backend**: Node.js, Express.js  
-**Database**: MongoDB (Mongoose ODM)  
+**Database**: MongoDB
 **Authentication**: JWT, bcrypt  
 **Other**: dotenv, cors  
 
 ---
 
-## 📂 Folder Structure
-
-URL-Shorty/
-├── backend/
-│ ├── controllers/ # Route logic
-│ ├── models/ # MongoDB models
-│ ├── routes/ # Express routes
-│ ├── middleware/ # Auth middlewares
-│ ├── server.js # App entry point
-│ └── package.json
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # App pages
-│ │ ├── utils/ # Helper functions
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── public/
-│ └── package.json
-│
-├── .gitignore
-├── README.md
-
-yaml
-Copy code
-
----
 
 ## ⚙️ Installation & Setup
 
@@ -64,38 +35,38 @@ Follow these steps to run locally:
 git clone https://github.com/YADAVHARSH913/URL-Shorty.git
 cd URL-Shorty
 2️⃣ Install Dependencies
-Backend:
 
+
+Backend:
 bash
-Copy code
 cd backend
 npm install
-Frontend:
 
+
+Frontend:
 bash
-Copy code
 cd ../frontend
 npm install
+
+
 3️⃣ Configure Environment Variables
 Create a .env file inside backend/ with the following:
 
-ini
-Copy code
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 CLIENT_URL=http://localhost:3000
-4️⃣ Run the Application
-Start backend:
 
+
+4️⃣ Run the Application
+
+Start backend:
 bash
-Copy code
 cd backend
 npm start
-Start frontend:
 
+Start frontend:
 bash
-Copy code
 cd ../frontend
 npm start
 Frontend runs on http://localhost:3000
@@ -110,23 +81,20 @@ Paste a long URL and shorten it ✂️
 
 Share the short link and track clicks in your dashboard
 
-Toggle dark/light mode as you like 🌙☀️
 
-📸 Screenshots / Demo
-(Add screenshots or a live demo link here once hosted, e.g. on Vercel / Netlify + Render / Railway)
+📸 Screenshots 
 
-🤝 Contributing
-Contributions are welcome! Follow these steps:
+1. Register Page
+<img width="1919" height="939" alt="image" src="https://github.com/user-attachments/assets/649bdd91-e01d-45e1-94c7-2a6091095790" />
 
-Fork the repo
+2. Login Page
+<img width="1919" height="939" alt="image" src="https://github.com/user-attachments/assets/63a644cf-2af9-45d8-bf9a-b30804e3e37c" />
 
-Create a new branch (git checkout -b feature/your-feature)
+3.URL Shortner
+<img width="1919" height="944" alt="image" src="https://github.com/user-attachments/assets/42239089-38aa-4db7-aca1-e811de40d34a" />
 
-Commit changes (git commit -m "Add new feature")
 
-Push to branch (git push origin feature/your-feature)
 
-Open a Pull Request
 
 📜 License
 This project is licensed under the MIT License.
