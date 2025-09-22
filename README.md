@@ -86,7 +86,7 @@ Share the short link and track clicks in your dashboard
 
 1. Register Page
 
-<img width="1919" height="939" alt="image" src="https://github.com/user-attachments/assets/649bdd91-e01d-45e1-94c7-2a6091095790" />
+![Register Page](https://github.com/user-attachments/assets/649bdd91-e01d-45e1-94c7-2a6091095790)
 
 2. Login Page
 
